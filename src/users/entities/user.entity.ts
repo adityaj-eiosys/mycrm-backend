@@ -7,6 +7,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   JoinColumn,
+  
 } from 'typeorm';
 import { UsersRole } from '../../roles/entities/usersRole.entity';
 import { Lead } from '../../leads/entities/lead.entity';
